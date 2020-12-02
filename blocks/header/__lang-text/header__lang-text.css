@@ -1,0 +1,16 @@
+.header__lang-text {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 1.125rem;
+}
+
+.header__lang-text:last-child {
+    margin-right: 0;
+}
+
+.header__lang-text:hover{
+    text-decoration: underline;
+}

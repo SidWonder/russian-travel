@@ -1,0 +1,13 @@
+@media (max-width: 320px) {
+    .lead {
+        box-sizing: border-box;
+        position: relative;
+        min-height: calc(406px + 3rem);
+        background-image: url("../../img/pic/mobile/mobile___lead_image.png");
+        background-repeat: no-repeat;
+        background-position-y: 232px;
+        background-size: 320px 200px;
+        padding-top: 48px;
+    }
+}
+

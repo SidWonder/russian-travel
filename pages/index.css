@@ -1,0 +1,35 @@
+@import "../blocks/page/page.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__langs/header__langs.css";
+@import "../blocks/header/__lang-text/header__lang-text.css";
+
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__quot/lead__quot.css";
+
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__gallery/intro__gallery.css";
+@import "../blocks/intro/__gallery/__img/gallery__img.css";
+
+@import "../blocks/travel/travel.css";
+@import "../blocks/travel/__img/travel__img.css";
+@import "../blocks/travel/__text/travel__text.css";
+@import "../blocks/travel/__title/travel__title.css";
+
+section, div {
+    outline: white solid 1px;
+}
+
+.lili {
+    color: white;
+}
+
+.lili:nth-child(3) {
+    color:red
+}
+
+travel .travel__text:nth-child(2){
+    color: aqua;
+}
