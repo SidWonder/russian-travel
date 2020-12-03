@@ -1,5 +1,12 @@
-.gallery__img {
-    width: 288px;
-    height: 216px;
-    outline: 1px solid white;
+/*.gallery__img {*/
+/*    width: 288px;*/
+/*    height: 216px;*/
+/*}*/
+
+
+@media (max-width : 320px) {
+    .gallery__img {
+        width: 288px;
+        height: 216px;
+    }
 }

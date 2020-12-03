@@ -1,0 +1,17 @@
+.intro__subtext {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+
+@media (max-width : 320px) {
+    .intro__subtext {
+        margin-top: 2.125em;
+        text-align: left;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

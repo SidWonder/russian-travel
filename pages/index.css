@@ -10,6 +10,9 @@
 @import "../blocks/lead/__quot/lead__quot.css";
 
 @import "../blocks/intro/intro.css";
+@import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__subtext/intro__subtext.css";
 @import "../blocks/intro/__gallery/intro__gallery.css";
 @import "../blocks/intro/__gallery/__img/gallery__img.css";
 
@@ -18,18 +21,16 @@
 @import "../blocks/travel/__text/travel__text.css";
 @import "../blocks/travel/__title/travel__title.css";
 
-section, div {
-    outline: white solid 1px;
-}
+@import "../blocks/trainspoting/trainspoting.css";
+@import "../blocks/trainspoting/__wrapper/trainspoting__wrapper.css";
+@import "../blocks/trainspoting/__title/trainspoting__title.css";
+@import "../blocks/trainspoting/__text/trainspoting__text.css";
 
-.lili {
-    color: white;
-}
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__text/footer__text.css";
+@import "../blocks/footer/__item/footer__item.css";
+@import "../blocks/footer/__items/footer__items.css";
 
-.lili:nth-child(3) {
-    color:red
-}
-
-travel .travel__text:nth-child(2){
-    color: aqua;
-}
+/*section, div {*/
+/*    outline: white solid 1px;*/
+/*}*/

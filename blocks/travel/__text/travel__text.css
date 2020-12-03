@@ -11,14 +11,7 @@
         margin: 0 1rem 1.5625rem 1rem;
     }
     .travel__text:last-child {
-        outline: 1px solid red;
+        margin: 0 1rem 0 1rem;
     }
-    .travel__text:nth-child(1) {
-        color: aqua;
-    }
-
-    /*.travel__text:hover {*/
-    /*    color: yellow;*/
-    /*}*/
 }
 

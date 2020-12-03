@@ -2,8 +2,23 @@
     margin: 0;
     color: #FFFFFF;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
+
     text-align: center;
-    margin-top: 1rem;
+
+}
+
+@media (max-width : 320px) {
+    .lead__subtitle  {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width : 768px) {
+    .lead__subtitle   {
+        margin-top: 2rem;
+        font-size: 30px;
+        line-height: 36px;
+    }
 }

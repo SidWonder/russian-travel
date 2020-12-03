@@ -1,0 +1,16 @@
+.trainspoting {
+    background: url("../../img/pic/cover-trains.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width : 320px) {
+    .trainspoting {
+        box-sizing: border-box;
+        margin-top: 66px;
+        /*padding: 2.0625rem 1rem 2.0625rem 1rem;*/
+        width: 320px;
+        height: 200px;
+
+    }
+}

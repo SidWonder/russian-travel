@@ -1,10 +1,14 @@
-/*.travel {*/
+.travel {
+box-sizing: border-box;
+}
 
-/*}*/
+@media (max-width: 320px) {
+    .travel {
+        margin-top: 49px;
+    }
 
-/*@media (max-width : 320px) {*/
-/*    .travel {*/
-/*!*padding: 0 1rem 0 1rem;*!*/
-/*    }*/
+    .travel:nth-child(3) {
+        margin-top: 64px;
+    }
 
-/*}*/
+}
