@@ -16,8 +16,8 @@
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__subtext/intro__subtext.css";
-@import "../blocks/intro/__gallery/intro__gallery.css";
-@import "../blocks/intro/__gallery/__img/gallery__img.css";
+@import "../blocks/intro/__gallery/intro-gallery.css";
+@import "../blocks/intro/__gallery/__img/intro-gallery__img.css";
 
 @import "../blocks/travel/travel.css";
 @import "../blocks/travel/__link-wrapper/travel__link-wrapper.css";
