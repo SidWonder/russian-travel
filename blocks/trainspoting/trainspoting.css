@@ -1,16 +1,45 @@
 .trainspoting {
     background: url("../../img/pic/cover-trains.jpg");
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /*object-fit: contain;*/
 }
 
-@media (max-width : 320px) {
+@media (max-width: 767px) {
     .trainspoting {
-        box-sizing: border-box;
+
         margin-top: 66px;
         /*padding: 2.0625rem 1rem 2.0625rem 1rem;*/
-        width: 320px;
-        height: 200px;
+        /*width: 320px;*/
+        min-height: 200px;
+    }
+}
 
+@media (min-width : 768px) {
+    .trainspoting {
+        margin-top: 5.625rem;
+        /*box-sizing: border-box;*/
+        /*margin-top: 66px;*/
+        /*!*padding: 2.0625rem 1rem 2.0625rem 1rem;*!*/
+        /*width: 320px;*/
+        /*height: 200px;*/
+        min-height: 480px;
+        height: 100%;
+    }
+}
+
+@media (min-width : 1280px) {
+    .trainspoting {
+        margin: 5.75rem 3rem 0 3rem;
+        /*box-sizing: border-box;*/
+        /*margin-top: 66px;*/
+        /*!*padding: 2.0625rem 1rem 2.0625rem 1rem;*!*/
+        /*width: 320px;*/
+        /*height: 200px;*/
+        min-height: 740px;
+        height: 100%;
     }
 }

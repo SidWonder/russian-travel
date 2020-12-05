@@ -1,13 +1,27 @@
+.travel__texts-wrapper {
+
+    grid-area: travel__texts-wrapper;
+    display: flex;
+    flex-direction: column;
+}
 .travel__text {
+    margin: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
+    grid-area: travel__text;
+    text-align: left;
 }
 
-@media (max-width : 320px) {
+.travel__text:last-child {
+    margin-top: 1.625rem;
+}
+
+@media (max-width: 767px) {
     .travel__text {
+        /*max-width: 288px;*/
         margin: 0 1rem 1.5625rem 1rem;
     }
     .travel__text:last-child {
@@ -15,3 +29,18 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .travel__text {
+        min-width: 456px;
+        font-size: 18px;
+        line-height: 163%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .travel__text {
+        max-width: 460px;
+        font-size: 18px;
+        line-height: 163%;
+    }
+}

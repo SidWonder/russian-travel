@@ -1,5 +1,26 @@
-@media (max-width : 320px) {
+.footer {
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
     .footer {
         padding: 4rem 1rem 1.5rem 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 5.5rem 1.5rem 1.5rem 1.5rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 5.75rem 3rem 1.5rem 3rem;
     }
 }

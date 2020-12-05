@@ -1,0 +1,19 @@
+.travel__link-wrapper {
+    grid-area: travel__link-wrapper;
+    align-self: center;
+    justify-self: start;
+}
+.link-title {
+    margin: 0;
+}
+.link {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .travel__link-wrapper {
+        display: none;
+    }
+
+}
+

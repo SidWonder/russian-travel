@@ -2,16 +2,34 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    text-align: left;
+    font-style: normal;
+    line-height: 18px;
+
+}
+.subtext-bold {
+    font-weight: bold;
 }
 
-
-@media (max-width : 320px) {
+@media (max-width: 767px) {
     .intro__subtext {
         margin-top: 2.125em;
-        text-align: left;
-        font-style: normal;
-        font-weight: bold;
         font-size: 12px;
-        line-height: 18px;
+
+    }
+}
+
+@media (min-width : 768px) {
+    .intro__subtext  {
+        margin-top: 2.0625rem;
+        font-size: 12px;
+
+    }
+}
+
+@media (min-width : 1024px) {
+    .intro__subtext   {
+        font-size: 12px;
+        max-width: 690px;
     }
 }

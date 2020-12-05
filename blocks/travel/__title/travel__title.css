@@ -1,13 +1,39 @@
 .travel__title {
+    margin: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     color: #FFFFFF;
+    grid-area: travel__title;
 }
 
-@media (max-width : 320px) {
+@media (max-width: 767px) {
     .travel__title {
         margin: 0 1rem 0 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .travel__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 340px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .travel__title {
+        max-width: 440px;
+        font-size: 72px;
+        line-height: 76px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .travel__title {
+        max-width: 460px;
+        font-size: 72px;
+        line-height: 76px;
     }
 }

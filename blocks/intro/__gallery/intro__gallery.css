@@ -4,10 +4,35 @@
     /*flex-direction: column;*/
 }
 
-@media (max-width : 320px) {
+@media (max-width: 767px) {
     .intro__gallery {
         margin-top: 4rem;
         row-gap: 0.8125rem;
     }
     /* стили для малого смартфона */
 }
+
+@media (min-width : 768px) {
+    .intro__gallery {
+        grid-template-columns: 352px 352px;
+        gap: 1rem;
+    }
+}
+
+@media (min-width : 1024px) and (max-width: 1279px) {
+    .intro__gallery {
+        margin-top: 5.75rem;
+        grid-template-columns: 300px 300px 300px;
+        gap: 0.875rem;
+    }
+}
+
+@media (min-width : 1280px) {
+    .intro__gallery {
+        margin-top: 5.75rem;
+        /*grid-template-columns: 284px  284px 284px 284px;*/
+        grid-template-columns: 1fr  1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+

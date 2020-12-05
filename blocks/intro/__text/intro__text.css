@@ -2,14 +2,29 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 163%;
 }
 
-@media (max-width : 320px) {
+@media (max-width: 767px) {
     .intro__text {
         margin-top: 2.5rem;
-        font-style: normal;
-        font-weight: normal;
         font-size: 16px;
-        line-height: 163%;
+    }
+}
+
+@media (min-width : 768px) {
+    .intro__text  {
+        margin-top: 2.5rem;
+        font-size: 16px;
+        max-width: 720px;
+    }
+}
+
+@media (min-width : 1024px) {
+    .intro__text   {
+        font-size: 16px;
+        max-width: 690px;
     }
 }

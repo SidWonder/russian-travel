@@ -3,7 +3,7 @@
     color: #FFFFFF;
 }
 
-@media (max-width : 320px) {
+@media (max-width: 767px) {
     .footer__text {
         margin-top: 3rem;
         font-style: normal;
