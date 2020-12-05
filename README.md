@@ -4,8 +4,8 @@ https://sidwonder.github.io/russian-travel/
 
 ### Обзор
 * Интро
-* Figma
-* Картинки
+* Что в работе?
+* Что можно исправить
 
 **Интро**
 
