@@ -1,16 +1,17 @@
-.header__lang-text {
+.header__link {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: normal;
     font-size: 18px;
     line-height: 20px;
     margin-right: 1.125rem;
+
 }
 
-.header__lang-text:last-child {
+.header__link:last-child {
     margin-right: 0;
 }
 
-.header__lang-text:hover{
+.header__link:hover{
     text-decoration: underline;
 }

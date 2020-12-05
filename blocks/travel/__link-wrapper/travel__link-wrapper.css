@@ -5,9 +5,13 @@
 }
 .link-title {
     margin: 0;
+    margin-bottom: 0.75rem;
+    color: #AAAAAA;
 }
 .link {
     margin: 0;
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 @media (max-width: 767px) {

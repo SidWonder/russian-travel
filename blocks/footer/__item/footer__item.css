@@ -8,7 +8,7 @@
     text-decoration: none;
     color: #FFFFFF;
 }
-.item-link:hover {
+.footer__item :hover {
     color: #AAAAAA;
     transition: all 2s;
 }
