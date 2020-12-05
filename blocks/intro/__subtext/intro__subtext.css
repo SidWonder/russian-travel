@@ -1,17 +1,18 @@
-.intro__subtext {
+.intro__list {
     margin: 0;
     padding: 0;
     text-align: left;
     font-style: normal;
     line-height: 18px;
+list-style-type: none;
 
 }
-.subtext-bold {
+.intro__info-bold {
     font-weight: bold;
 }
 
 @media (max-width: 767px) {
-    .intro__subtext {
+    .intro__list {
         margin-top: 2.125rem;
         font-size: 12px;
 
@@ -19,7 +20,7 @@
 }
 
 @media (min-width: 768px) {
-    .intro__subtext  {
+    .intro__list  {
         margin-top: 2.0625rem;
         font-size: 12px;
 
@@ -27,7 +28,7 @@
 }
 
 @media (min-width: 1024px) {
-    .intro__subtext   {
+    .intro__list   {
         font-size: 12px;
         max-width: 690px;
     }
