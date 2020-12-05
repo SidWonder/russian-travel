@@ -1,9 +1,7 @@
 .header {
     margin: 0;
-    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 1rem 1rem 0 1rem;
 }
 
 @media (max-width: 767px) {
@@ -14,13 +12,13 @@
 }
 
 @media (min-width : 768px) {
-    .header  {
+    .header {
         padding: 1.75rem 1.5rem 0 1.5rem;
     }
 }
 
 @media (min-width : 1024px) {
-    .header  {
+    .header {
         padding: 1.75rem 3rem 0 3rem;
     }
 }

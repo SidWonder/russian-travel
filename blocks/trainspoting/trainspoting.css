@@ -14,7 +14,7 @@
     }
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
     .trainspoting {
         margin-top: 5.625rem;
         min-height: 480px;
@@ -22,7 +22,7 @@
     }
 }
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
     .trainspoting {
         margin: 5.75rem 3rem 0 3rem;
         min-height: 740px;
