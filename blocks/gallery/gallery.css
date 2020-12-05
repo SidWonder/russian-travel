@@ -1,5 +1,8 @@
 .gallery {
+    display: -ms-grid;
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -12,6 +15,7 @@
 
 @media (min-width: 768px) {
     .gallery {
+        -ms-grid-columns: 352px 1rem 352px;
         grid-template-columns: 352px 352px;
         gap: 1rem;
     }
@@ -20,6 +24,7 @@
 @media (min-width: 1024px) and (max-width: 1279px) {
     .gallery {
         margin-top: 5.75rem;
+        -ms-grid-columns: 300px 0.875rem 300px 0.875rem 300px;
         grid-template-columns: 300px 300px 300px;
         gap: 0.875rem;
     }
@@ -28,6 +33,7 @@
 @media (min-width: 1280px) {
     .gallery {
         margin-top: 5.75rem;
+        -ms-grid-columns: 1fr 1rem  1fr 1rem 1fr 1rem 1fr;
         grid-template-columns: 1fr  1fr 1fr 1fr;
         gap: 1rem;
     }

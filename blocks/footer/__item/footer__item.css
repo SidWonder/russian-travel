@@ -6,6 +6,8 @@
 
 .footer__item :hover {
     color: #AAAAAA;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 @media (max-width: 767px) {

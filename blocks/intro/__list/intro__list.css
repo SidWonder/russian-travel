@@ -7,9 +7,6 @@
 list-style-type: none;
 
 }
-.intro__info-bold {
-    font-weight: bold;
-}
 
 @media (max-width: 767px) {
     .intro__list {

@@ -1,4 +1,5 @@
 .lead {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
     background-repeat: no-repeat;

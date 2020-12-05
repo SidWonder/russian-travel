@@ -13,9 +13,10 @@
 @import "../blocks/lead/__quot/lead__quot.css";
 
 @import "../blocks/intro/intro.css";
+@import "../blocks/intro/__info-bold/intro__info-bold.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__title/intro__title.css";
-@import "../blocks/intro/__subtext/intro__subtext.css";
+@import "../blocks/intro/__list/intro__list.css";
 
 @import "../blocks/gallery/gallery.css";
 @import "../blocks/gallery/__img/gallery__img.css";
