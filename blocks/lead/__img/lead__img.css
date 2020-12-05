@@ -5,3 +5,26 @@
     width: 100%;
     margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+    .lead__img {
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__img {
+        margin-top: 2.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .lead__img {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead__img {
+        margin-top: 4rem;
+    }
+}
