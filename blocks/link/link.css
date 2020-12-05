@@ -1,7 +1,7 @@
-.link {
+.travel__link {
 }
 
-.link:hover {
+.travel__link:hover {
     color: #AAAAAA;
     transition: all 2s;
 }

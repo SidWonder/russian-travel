@@ -5,12 +5,12 @@
     -ms-grid-column-align: start;
     justify-self: start;
 }
-.link-title {
+.travel__link-title {
     margin: 0;
     margin-bottom: 0.75rem;
     color: #AAAAAA;
 }
-.link {
+.travel__link {
     margin: 0;
     text-decoration: underline;
     color: #FFFFFF;

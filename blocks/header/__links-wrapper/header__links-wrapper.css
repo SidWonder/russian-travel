@@ -1,7 +1,15 @@
-.header__links-wrapper {
+.header__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
     -ms-grid-column-align: end;
     justify-self: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 24px;
+    line-height: 1.17;
 }
