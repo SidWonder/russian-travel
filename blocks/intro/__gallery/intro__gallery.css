@@ -1,7 +1,6 @@
 .intro__gallery {
     display: grid;
     justify-content: center;
-    /*flex-direction: column;*/
 }
 
 @media (max-width: 767px) {
@@ -9,7 +8,6 @@
         margin-top: 4rem;
         row-gap: 0.8125rem;
     }
-    /* стили для малого смартфона */
 }
 
 @media (min-width : 768px) {
@@ -30,7 +28,6 @@
 @media (min-width : 1280px) {
     .intro__gallery {
         margin-top: 5.75rem;
-        /*grid-template-columns: 284px  284px 284px 284px;*/
         grid-template-columns: 1fr  1fr 1fr 1fr;
         gap: 1rem;
     }

@@ -22,12 +22,8 @@ box-sizing: border-box;
 @media (min-width : 768px) {
 
     .travel  {
-        /*TODO add margin-top*/
         padding: 5.5rem 1.5rem 0 1.5rem;
         grid-template-columns: 1fr 1fr;
-        /*grid-template-areas:*/
-        /*"travel__title  travel__link-wrapper"*/
-        /*"travel__img travel__texts-wrapper";*/
         gap: 3rem 1.75rem;
     }
 }
@@ -36,14 +32,12 @@ box-sizing: border-box;
     .travel {
         /*TODO add margin-top*/
         padding: 5.75rem 3rem 0 3rem;
-        /*grid-template-columns: 440px 456px;*/
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width : 1280px)  {
     .travel {
-        /*TODO add margin-top*/
         padding: 5.75rem 9.25rem 0 9.25rem;
         grid-template-columns: 460px 484px;
         gap: 3rem 2rem;

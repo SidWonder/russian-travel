@@ -1,0 +1,6 @@
+.travel__texts-wrapper {
+
+    grid-area: travel__texts-wrapper;
+    display: flex;
+    flex-direction: column;
+}
