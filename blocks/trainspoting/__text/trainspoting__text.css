@@ -1,23 +1,45 @@
+/*.trainspoting__text {*/
+/*    margin: 0;*/
+/*    margin-top: 1rem;*/
+/*    text-align: center;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*}*/
+
+/*@media (max-width: 767px) {*/
+/*    .trainspoting__text {*/
+/*        font-size: 14px;*/
+/*        line-height: 16px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*    .trainspoting__text {*/
+/*        font-size: 18px;*/
+/*        line-height: 22px;*/
+/*        max-width: 360px;*/
+/*    }*/
+/*}*/
+
 .trainspoting__text {
-    margin: 0;
-    margin-top: 1rem;
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 1.22;
     text-align: center;
-    font-style: normal;
-    font-weight: normal;
+    margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 605px) {
+    .trainspoting_text {
+        font-size: 42px;
+        line-height: 1.09;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 395px) {
     .trainspoting__text {
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
     }
 }
-
-@media (min-width: 768px) {
-    .trainspoting__text {
-        font-size: 18px;
-        line-height: 22px;
-        max-width: 360px;
-    }
-}
-

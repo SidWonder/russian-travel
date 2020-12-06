@@ -4,29 +4,25 @@
     text-align: left;
     font-style: normal;
     line-height: 18px;
-list-style-type: none;
+    list-style-type: none;
+    font-size: 12px;
 
 }
 
 @media (max-width: 767px) {
     .intro__list {
         margin-top: 2.125rem;
-        font-size: 12px;
-
     }
 }
 
 @media (min-width: 768px) {
     .intro__list  {
         margin-top: 2.0625rem;
-        font-size: 12px;
-
     }
 }
 
 @media (min-width: 1024px) {
     .intro__list   {
-        font-size: 12px;
         max-width: 690px;
     }
 }

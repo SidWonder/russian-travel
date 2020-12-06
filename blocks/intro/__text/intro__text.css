@@ -4,26 +4,23 @@
     font-style: normal;
     font-weight: normal;
     line-height: 163%;
+    font-size: 16px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 320px) {
     .intro__text {
         margin-top: 2.5rem;
-        font-size: 16px;
     }
 }
 
 @media (min-width: 768px) {
     .intro__text  {
-        margin-top: 2.5rem;
-        font-size: 16px;
         max-width: 720px;
     }
 }
 
 @media (min-width: 1024px) {
     .intro__text   {
-        font-size: 16px;
         max-width: 690px;
     }
 }

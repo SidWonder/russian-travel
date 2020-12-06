@@ -6,10 +6,11 @@
     line-height: 163%;
     grid-area: travel__text;
     text-align: left;
+    margin-top: 1.625rem;
 }
 
-.travel__text:last-child {
-    margin-top: 1.625rem;
+.travel__text:first-child {
+    margin-top: 0;
 }
 
 @media (max-width: 767px) {
@@ -25,14 +26,11 @@
     .travel__text {
         min-width: 456px;
         font-size: 18px;
-        line-height: 163%;
     }
 }
 
 @media (min-width: 1280px) {
     .travel__text {
         max-width: 460px;
-        font-size: 18px;
-        line-height: 163%;
     }
 }

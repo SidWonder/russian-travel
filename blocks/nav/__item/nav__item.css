@@ -1,0 +1,35 @@
+.nav__item {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.nav__item :hover {
+    color: #AAAAAA;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+@media (max-width: 767px) {
+    .nav__item {
+        margin-top: 2rem;
+
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .nav__item:first-child {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav__item {
+        margin-right: 1.125rem;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .nav__item:last-child {
+        margin-right: 0;
+    }
+}

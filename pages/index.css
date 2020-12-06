@@ -3,9 +3,10 @@
 @import "../blocks/page/page.css";
 
 @import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__list-item/header__list-item.css";
-@import "../blocks/header/__link/header__links.css";
-@import "../blocks/header/__links-wrapper/header__links-wrapper.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__list/header__list.css";
 
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__img/lead__img.css";
@@ -23,6 +24,8 @@
 @import "../blocks/gallery/__img/gallery__img.css";
 
 @import "../blocks/travel/travel.css";
+@import "../blocks/travel/__link-title/travel__link-title.css";
+@import "../blocks/travel/__link/travel__link.css";
 @import "../blocks/travel/__link-wrapper/travel__link-wrapper.css";
 @import "../blocks/travel/__texts-wrapper/travel__texts-wrapper.css";
 @import "../blocks/travel/__img/travel__img.css";
@@ -30,6 +33,8 @@
 @import "../blocks/travel/__title/travel__title.css";
 
 @import "../blocks/trainspoting/trainspoting.css";
+@import "../blocks/trainspoting/__background/trainspoting__background.css";
+@import "../blocks/trainspoting/__overlay/trainspoting__overlay.css";
 @import "../blocks/trainspoting/__wrapper/trainspoting__wrapper.css";
 @import "../blocks/trainspoting/__title/trainspoting__title.css";
 @import "../blocks/trainspoting/__text/trainspoting__text.css";
@@ -38,6 +43,11 @@
 @import "../blocks/footer/__text/footer__text.css";
 @import "../blocks/footer/__item/footer__item.css";
 @import "../blocks/footer/__items/footer__items.css";
+
+@import "../blocks/nav/nav.css";
+@import "../blocks/nav/__link/nav__link.css";
+@import "../blocks/nav/__item/nav__item.css";
+@import "../blocks/nav/__list/nav__list.css";
 
 @import "../blocks/root/root.css";
 
