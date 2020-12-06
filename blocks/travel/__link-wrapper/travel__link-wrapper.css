@@ -1,7 +1,6 @@
 .travel__link-wrapper {
     grid-area: travel__link-wrapper;
     -ms-grid-row-align: center;
-    align-self: center;
     -ms-grid-column-align: start;
     justify-self: start;
     align-self: end;
