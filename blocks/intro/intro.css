@@ -1,6 +1,8 @@
 .intro {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    max-width: 984px;
+    /*margin: 0  auto;*/
 }
 
 @media (max-width: 767px) {
@@ -17,12 +19,13 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
     .intro {
-        padding: 5.75rem 3rem 0 3rem;
+        padding: 5.75rem 0 0 3rem;
     }
 }
 
 @media (min-width: 1280px) {
     .intro {
-        padding: 5.75rem 9.25rem 0 9.25rem;
+        /*max-width: 690px;*/
+        padding: 5.75rem 0 0 9.25rem;
     }
 }

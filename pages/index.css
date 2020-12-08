@@ -23,6 +23,8 @@
 @import "../blocks/gallery/gallery.css";
 @import "../blocks/gallery/__img/gallery__img.css";
 
+@import "../blocks/travels/travels.css";
+
 @import "../blocks/travel/travel.css";
 @import "../blocks/travel/__link-title/travel__link-title.css";
 @import "../blocks/travel/__link/travel__link.css";
@@ -35,7 +37,6 @@
 @import "../blocks/trainspoting/trainspoting.css";
 @import "../blocks/trainspoting/__background/trainspoting__background.css";
 @import "../blocks/trainspoting/__overlay/trainspoting__overlay.css";
-@import "../blocks/trainspoting/__wrapper/trainspoting__wrapper.css";
 @import "../blocks/trainspoting/__title/trainspoting__title.css";
 @import "../blocks/trainspoting/__text/trainspoting__text.css";
 

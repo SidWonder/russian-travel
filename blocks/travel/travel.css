@@ -5,6 +5,7 @@
     box-sizing: border-box;
     display: -ms-grid;
     display: grid;
+    max-width: 984px;
     grid-template-areas:
             "travel__title  travel__link-wrapper"
             "travel__img travel__texts-wrapper";
@@ -13,29 +14,25 @@
 @media (max-width: 767px) {
     .travel {
         display: block;
-        padding-top: 3.0625rem;
+        padding-bottom: 3.0625rem;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    }
-
-    .travel:nth-child(3) {
-        padding-top: 64px;
     }
 }
 
 @media (min-width: 768px) {
 
     .travel  {
-        padding: 5.5rem 1.5rem 0 1.5rem;
         -ms-grid-columns: 1fr 1.75rem 1fr;
         grid-template-columns: 1fr 1fr;
         gap: 3rem 1.75rem;
+        padding-bottom: 4.5625rem;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px)  {
     .travel {
-        padding: 5.75rem 3rem 0 3rem;
+        padding-bottom: 5rem;
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
@@ -43,9 +40,9 @@
 
 @media (min-width: 1280px)  {
     .travel {
-        padding: 5.75rem 9.25rem 0 9.25rem;
-        -ms-grid-columns: 460px 2rem 484px;
-        grid-template-columns: 460px 484px;
+        padding-bottom: 5rem;
+        grid-template-columns: 460px 1fr;
         gap: 3rem 2rem;
+
     }
 }
