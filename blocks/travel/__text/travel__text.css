@@ -22,7 +22,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
     .travel__text {
         min-width: 456px;
         font-size: 18px;
@@ -32,5 +32,6 @@
 @media (min-width: 1280px) {
     .travel__text {
         max-width: 484px;
+
     }
 }

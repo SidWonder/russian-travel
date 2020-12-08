@@ -1,7 +1,5 @@
 .travel {
-
     -webkit-box-sizing: border-box;
-
     box-sizing: border-box;
     display: -ms-grid;
     display: grid;
@@ -9,6 +7,9 @@
     grid-template-areas:
             "travel__title  travel__link-wrapper"
             "travel__img travel__texts-wrapper";
+}
+.travel:last-child {
+    padding-bottom: 0;
 }
 
 @media (max-width: 767px) {

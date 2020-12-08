@@ -3,3 +3,7 @@
     text-decoration: underline;
     color: #FFFFFF;
 }
+
+.travel__link:hover {
+    opacity: 0.8;
+}
