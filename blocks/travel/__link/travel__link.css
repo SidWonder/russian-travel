@@ -2,6 +2,8 @@
     margin: 0;
     text-decoration: underline;
     color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .travel__link:hover {
